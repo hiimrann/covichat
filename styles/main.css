@@ -1,0 +1,123 @@
+/* css reset */
+
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 20px;
+  line-height: 120%;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* colors */
+
+:root {
+  --text: #000;
+  --background: #fff;
+}
+
+/* body */
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: var(--text);
+}
+
+body {
+  background-color: var(--background);
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+}
+
+/* navigation */
+
+nav {
+  max-width: 75%;
+  padding: 25px 0px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+nav a:link, nav a:visited, nav a:hover, nav a:active {
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid transparent;
+}
+
+/* logo */
+
+.logo {
+  border-color: var(--text) !important;
+  border-radius: 10px;
+}
+
+/* main */
+
+main {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+/* headers */
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+/* sections */
+
+article, section {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* lists */
+
+ul li, ol li {
+  margin-left: 40px;
+}
+
+ul li:first-of-type, ol li:first-of-type {
+  margin-top: 20px;
+}
+
+ul li:last-of-type, ol li:last-of-type {
+  margin-bottom: 20px;
+}
+
+/* chat */
+
+.chat {
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* images */
+
+.img-container {
+  text-align: center;
+}
+
+.img-container img {
+  max-width: 700px;
+}

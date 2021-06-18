@@ -1,0 +1,18 @@
+@media (max-width: 599px) {
+  /* navigation */
+  nav {
+    max-width: 90%;
+  }
+
+  /* main */
+  main {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 499px) {
+  /* navigation */
+  nav a:link, nav a:visited, nav a:hover, nav a:active {
+    width: 100%;
+  }
+}
